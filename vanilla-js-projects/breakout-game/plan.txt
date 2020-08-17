@@ -1,0 +1,11 @@
+1. create canvas context
+2. create and draw ball (color, shape, position. etc.)
+3. create and draw the paddle
+4. create and draw the bricks
+5. draw the score
+6. add update() - Animation by redrawing the canvas- requestAnimationFrame(cb);
+7. move the paddle useing keyboard event handlers
+8. move the ball
+9. add wall boundaries
+10. increase the score when the bricks break
+11. lose functionality - redraw bricks, reset the score

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: white;
+  line-height: 1.1;
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+#container {
+  max-width: 600px;
+  margin: 15px auto;
+}
+
+#colorDisplay {
+  font-size: 150%;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20px;
+  transition: background-color 1s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+}
+
+#stripe {
+  background-color: #fff;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.4s;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+button:focus {
+  outline: none;
+}
